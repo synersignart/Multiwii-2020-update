@@ -1,22 +1,23 @@
 # Multiwii-2020-update
 
 Note : some changes updated on this additional sensors implementation and Wish list looking for contributors 
-/***************************    WishList for contribution     ********************************/
-MMC5883MA
-QMC6310
-QMC 6983
-RM3100
-QMP6988
-QMA6981
-QMA7981
-QMI8610
 
-/***************************    Implemented sensors as of 2020   ********************************/
-AK8963
-BMP280
-QMC5883
+
 
 /***************************    independent sensors    ********************************/
+      
+// WishList for contribution  //  
+      MMC5883MA
+      QMC6310
+      RM3100
+      QMP6988
+      QMA6981
+        
+//Implemented sensors as of 2020//     
+      AK8963
+      BMP280
+      QMC5883
+      
       
       /* I2C gyroscope */
       //#define WMP
