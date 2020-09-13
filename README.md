@@ -1,14 +1,12 @@
 # Multiwii-2020-update
 
-Note : alot of changes updated on this 
-additional sensors implementation
-
+Note : some changes updated on this additional sensors implementation
 AK8963
 BMP280
 QMC5883
 
 /***************************    independent sensors    ********************************/
-      /* leave it commented if you already checked a specific board above */
+      
       /* I2C gyroscope */
       //#define WMP
       //#define ITG3050
