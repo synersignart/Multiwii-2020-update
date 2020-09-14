@@ -12,6 +12,9 @@ Note : some changes updated on this additional sensors implementation and Wish l
       RM3100
       QMP6988
       QMA6981
+      LSM6DS33
+      LIS3MDL
+      LPS25H
         
 //Implemented sensors as of 2020//     
       AK8963
