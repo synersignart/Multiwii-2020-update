@@ -10,11 +10,11 @@ Note : some changes updated on this additional sensors implementation and Wish l
       MMC5883MA
       QMC6310
       RM3100
-      QMP6988
+      ICM-20948
       QMA6981
       LSM6DS33
       LIS3MDL
-      LPS25H
+      BME280
         
 //Implemented sensors as of 2020//     
       AK8963
