@@ -15,6 +15,9 @@ Note : some changes updated on this additional sensors implementation and Wish l
       LSM6DS33
       LIS3MDL
       BME280
+      MMC3416
+      LSM303
+      BMM150
         
 //Implemented sensors as of 2020//     
       AK8963
