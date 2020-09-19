@@ -7,7 +7,6 @@ Note : some changes updated on this additional sensors implementation and Wish l
 /***************************    independent sensors    ********************************/
       
 // WishList for contribution  //  
-      MMC5883MA
       QMC6310
       RM3100
       ICM-20948
@@ -57,3 +56,4 @@ Note : some changes updated on this additional sensors implementation and Wish l
       //#define AK8975
       //#define AK8963
       //#define MAG3110
+      //#define MMC5883
