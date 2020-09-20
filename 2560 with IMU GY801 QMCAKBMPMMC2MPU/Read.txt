@@ -1,0 +1,6 @@
+Note this supports the alternative QMC 5883 over the HMC L883 compass  as supplied on some shop
+2017 QMC 5883
+2020 Added AK AK8963
+2020 Added BMP280
+2016 MPU9250
+2020 MMC5883
