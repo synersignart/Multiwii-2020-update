@@ -1508,9 +1508,11 @@ void ACC_getADC () {
                          ((rawADC[5]<<8) | rawADC[4]) );
       #endif
       #if defined (MMC5883)  
-        MAG_ORIENTATION( ((rawADC[1]<<8) | rawADC[0]) ,
-                         ((rawADC[3]<<8) | rawADC[2]) ,
-                         ((rawADC[5]<<8) | rawADC[4]) );
+
+    MAG_ORIENTATION( ((rawADC[1]<<10)   | rawADC[0])/4,          
+                     ((rawADC[3]<<10)   | rawADC[2])/4,     
+                     ((rawADC[5]<<10)   | rawADC[4])/4);
+
                          
       #endif
       #if defined (MAG3110)
