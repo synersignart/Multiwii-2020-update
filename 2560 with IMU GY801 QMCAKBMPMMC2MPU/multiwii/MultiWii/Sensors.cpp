@@ -1328,9 +1328,9 @@ i2c_writeReg(MAG_ADDRESS,MMC5883MA_INTERNAL_CONTROL_0,0x01);
 
   void Device_Mag_getADC() {
     i2c_getSixRawADC(MAG_ADDRESS,MAG_DATA_REGISTER);
-    MAG_ORIENTATION( ((rawADC[1]<<10)   | rawADC[0])/4,          
-                     ((rawADC[3]<<10)   | rawADC[2])/4,     
-                     ((rawADC[5]<<10)   | rawADC[4])/4);
+    MAG_ORIENTATION( ((rawADC[1]<<10)   | rawADC[0]),          
+                     ((rawADC[3]<<10)   | rawADC[2]),     
+                     ((rawADC[5]<<10)   | rawADC[4]));
                      }
 
 #endif
