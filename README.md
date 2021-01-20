@@ -1,5 +1,12 @@
 # Multiwii-2020-update
 
+just open multiwii.ino using the Arduino IDE 
+Adjust the Config.h parameters according to your drone type and sensors
+compile and build into your selected arduino board from Tool menu.
+
+
+
+
 Note : some changes updated on this additional sensors implementation and Wish list looking for contributors 
 
 
