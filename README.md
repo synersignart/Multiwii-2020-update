@@ -64,3 +64,6 @@ Note : some changes updated on this additional sensors implementation and Wish l
       //#define AK8963
       //#define MAG3110
       //#define MMC5883
+      
+      # Synerduino Kwad3
+      Multiwiibase update for both GY91 and GY801 MMC sensor 10 DOF module
