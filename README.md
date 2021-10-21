@@ -4,6 +4,15 @@ just open multiwii.ino using the Arduino IDE
 Adjust the Config.h parameters according to your drone type and sensors
 compile and build into your selected arduino board from Tool menu.
 
+2021 update note Note for 
+
+for complete ready to use set for arduino drone and Synerduino shield you can simply download 
+synerduinokwad3.zip 
+
+with the current sensors for multiwii as of 2020-2021
+Magnetometer HMC5883 and HMC5843 are discontinued - pls migrate to QMC5883 and MMC5883 
+Barometer BMP085 and 180BMP are hard to come by as this is written - Pls migrate to BMP280
+
 
 
 
@@ -13,7 +22,7 @@ Note : some changes updated on this additional sensors implementation and Wish l
 
 /***************************    independent sensors    ********************************/
       
-// WishList for contribution  //  
+// WishList for contribution for those who wish to add hit me up here on discussions //  
       QMC6310
       RM3100
       ICM-20948
@@ -24,11 +33,14 @@ Note : some changes updated on this additional sensors implementation and Wish l
       MMC3416
       LSM303
       BMM150
+      BMP388
+      BMP380
         
 //Implemented sensors as of 2020//     
       AK8963
       BMP280
       QMC5883
+      MMC5883
       
       
       /* I2C gyroscope */
