@@ -10,8 +10,12 @@ for complete ready to use set for arduino drone and Synerduino shield you can si
 synerduinokwad3.zip 
 
 with the current sensors for multiwii as of 2020-2021
+------------->
 Magnetometer HMC5883 and HMC5843 are discontinued - pls migrate to QMC5883 and MMC5883 
+------------->
 Barometer BMP085 and 180BMP are hard to come by as this is written - Pls migrate to BMP280
+------------->
+GYRO and  ACC MPU6050   combo + ACC (Possible support for MPU9250)
 
 
 
