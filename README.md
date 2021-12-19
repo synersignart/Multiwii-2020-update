@@ -81,8 +81,13 @@ Note : some changes updated on this additional sensors implementation and Wish l
       //#define MAG3110
       //#define MMC5883
       
+      
       # Synerduino Kwad3
       Multiwiibase update for both GY91 and GY801 MMC sensor 10 DOF module
+      
+     
+
+/***************************    Dec19 2021 Update    ********************************/ 
       
       # Synerduino Kwad3 1.8.16
       noted by JerwinJohn  this fixes the UBLOX GPS Array error when compiling using the Arduino 1.8.16 -1.8.18 IDE versions 
