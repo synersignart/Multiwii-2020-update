@@ -90,4 +90,18 @@ Note : some changes updated on this additional sensors implementation and Wish l
 /***************************    Dec19 2021 Update    ********************************/ 
       
       # Synerduino Kwad3 1.8.16
-      noted by JerwinJohn  this fixes the UBLOX GPS Array error when compiling using the Arduino 1.8.16 -1.8.18 IDE versions 
+      noted by JerwinJohn  this fixes the UBLOX GPS Array error when compiling using the Arduino 1.8.16 -1.8.18 -2.0.0 Arduino IDE versions
+      uint8_t bytes[]; was change to  uint8_t bytes[128]; 
+      
+      in GPS.cpp 
+      // Receive buffer
+      static union {
+  ubx_nav_posllh posllh;
+  ubx_nav_solution solution;
+  ubx_nav_velned velned;
+  uint8_t bytes[128];
+ } _buffer;
+ 
+ 
+      
+      
