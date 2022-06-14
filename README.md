@@ -103,5 +103,19 @@ Note : some changes updated on this additional sensors implementation and Wish l
  } _buffer;
  
  
+/***************************    Jun 14 2022 Update    ********************************/ 
+      the Zip files
       
+      Fixwing Files>
+      MultiWii_FW_synerduino.zip - this is PatrikE code for fixwing updated with the MMC5883 QMC5883 BMP280 sensors
+      SynerduinoPlanes4-GY91-GY801.zip 
+      SynerduinoWingPlane3-GY801.zip
+      
+      Surface vehicle files>
+      synerduinotankboat firmware.zip
+      
+      Multicopter Files>
+      synerduinoKwad1.8.16-2.0.0.zip
+      SynerduinoKwad3-GY801-1.8.16.zip
+      SynerduinoKwad3.zip
       
