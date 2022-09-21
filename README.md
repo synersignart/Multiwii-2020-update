@@ -27,18 +27,12 @@ Note : some changes updated on this additional sensors implementation and Wish l
 /***************************    independent sensors    ********************************/
       
 // WishList for contribution for those who wish to add hit me up here on discussions //  
-      QMC6310
-      RM3100
-      ICM-20948
-      QMA6981
-      LSM6DS33
-      LIS3MDL
-      BME280
-      MMC3416
-      LSM303
-      BMM150
-      BMP388
-      BMP380
+ICM20948
+ICM42605
+BMP388
+BMI270
+BMI160
+LSM9DSI
         
 //Implemented sensors as of 2020//     
       AK8963
@@ -53,7 +47,7 @@ Note : some changes updated on this additional sensors implementation and Wish l
       //#define ITG3200
       //#define MPU3050
       //#define L3G4200D
-      //#define MPU6050       //combo + ACC (Possible support for MPU9250)
+      //#define MPU6050       //combo + ACC (support for MPU9250)
       //#define LSM330        //combo + ACC
       
       /* I2C accelerometer */
@@ -76,8 +70,8 @@ Note : some changes updated on this additional sensors implementation and Wish l
       //#define HMC5843
       //#define HMC5883
       //#define QMC5883
-      //#define AK8975
-      //#define AK8963
+      //#define AK8975 
+      //#define AK8963 (support for MPU9250)
       //#define MAG3110
       //#define MMC5883
       
