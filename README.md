@@ -71,6 +71,7 @@ LSM9DSI
       //#define HMC5843
       //#define HMC5883
       //#define QMC5883
+      //#define QMC5883P
       //#define AK8975 
       //#define AK8963 (support for MPU9250)
       //#define MAG3110
