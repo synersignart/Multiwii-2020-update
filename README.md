@@ -1,4 +1,4 @@
-# Multiwii-2020-update
+# Multiwii-2025-update
 
 just open multiwii.ino using the Arduino IDE 
 Adjust the Config.h parameters according to your drone type and sensors
@@ -34,10 +34,11 @@ BMI270
 BMI160
 LSM9DSI
         
-//Implemented sensors as of 2020//     
+//Implemented sensors as of 2025//     
       AK8963
       BMP280
       QMC5883
+      QMC5883P
       MMC5883
       
       
@@ -106,6 +107,14 @@ LSM9DSI
       SynerduinoWingPlane3-GY801.zip
       
       Surface vehicle files>
+/***************************    2023 Update    ********************************/ 
+NMEA for GPS M9-M10
+      Surface vehicle files>
+      
+/***************************    2025 Update    ********************************/ 
+RX fusion able to switch command between mobile device and RC with Synrduino App
+QMC5883P support
+
       synerduinotankboat firmware.zip
       
       Multicopter Files>
