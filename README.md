@@ -110,7 +110,8 @@ LSM9DSI
       Surface vehicle files>
 /***************************    2023 Update    ********************************/ 
 NMEA for GPS M9-M10
-      Surface vehicle files>
+      apply to all 2024 updates 
+      addition     Surface vehicle files>
       
 /***************************    2025 Update    ********************************/ 
 RX fusion able to switch command between mobile device and RC with Synrduino App
@@ -122,4 +123,9 @@ QMC5883P support
       synerduinoKwad1.8.16-2.0.0.zip
       SynerduinoKwad3-GY801-1.8.16.zip
       SynerduinoKwad3.zip
-      
+
+
+      /***************************    2025 Update    ********************************/ 
+GPS to support NMEA and Ublox version 9 and 10
+
+SynerduinoKwad3-GY91-15-9-2026
