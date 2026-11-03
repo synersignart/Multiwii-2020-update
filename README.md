@@ -22,7 +22,15 @@ GYRO and  ACC MPU6050   combo + ACC (Possible support for MPU9250)
 
 Note : some changes updated on this additional sensors implementation and Wish list looking for contributors 
 
+pls see documentation and its associated sensors in order to download the version that matches your board, this is Arduino IDE Versions of the said firmware
 
+Notes:
+
+2026 Release supports only  UBLOX M9-M10 GPS, NMEA M9-M10 GPS
+
+2025 Release supports only up to UBLOX M7-M8 GPS, NMEA M9-M10  GPS
+
+2024 Release Supports Legacy UBLOX M6-M8 GPS, NMEA M6-M8  GPS
 
 /***************************    independent sensors    ********************************/
       
