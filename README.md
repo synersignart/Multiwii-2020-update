@@ -17,10 +17,11 @@ with the current sensors for multiwii as of 2020-2021
 Magnetometer HMC5883 and HMC5843 are discontinued - pls migrate to QMC5883 and MMC5883 
 ------------->
 Barometer BMP085 and BMP180 are hard to come by as this is written - Pls migrate to BMP280
+BMP388 and BMP390 modern alternative for the BMP280 (2026)
 ------------->
 GYRO and ACC MPU6050   combo + ACC (Possible support for MPU9250)
-ICM-20689 as a successor to the MPU6050 and MPU9250
-BMI160  Bosch alternative
+ICM-20689 as a successor to the MPU6050 and MPU9250 (2026)
+BMI160  Bosch alternative (2025)
 
 
 
