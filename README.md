@@ -37,10 +37,13 @@ Notes:
 // WishList for contribution for those who wish to add hit me up here on discussions //  
 ICM20948
 ICM42605
-BMP388
 BMI270
+
+//Implemented sensors as of 2026//  
+BMP388
+BMP390
 BMI160
-LSM9DSI
+ICM-20689
         
 //Implemented sensors as of 2025//     
       AK8963
@@ -58,6 +61,8 @@ LSM9DSI
       //#define L3G4200D
       //#define MPU6050       //combo + ACC (support for MPU9250)
       //#define LSM330        //combo + ACC
+      //#define BMI160        //combo + ACC
+      //#define ICM-20689     //combo + ACC
       
       /* I2C accelerometer */
       //#define MMA7455
@@ -73,6 +78,8 @@ LSM9DSI
       //#define BMP085
       //#define BMP280
       //#define MS561101BA
+      //#define BMP388
+      //#define BMP390
       
 
       /* I2C magnetometer */
