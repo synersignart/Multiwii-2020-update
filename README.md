@@ -1,4 +1,7 @@
-# Multiwii-2025-update
+# Multiwii Modern Fork 2020 update for Flight controller software base on the AVR Arduino platform . 
+
+from 2020 - 2026 Multiwii has been undergoing updates since its last official of multiwii 2.4 of 2014 and its being maintain here.
+pls do fork and check from time to time.
 
 just open multiwii.ino using the Arduino IDE 
 Adjust the Config.h parameters according to your drone type and sensors
